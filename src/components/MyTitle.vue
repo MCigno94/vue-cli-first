@@ -1,12 +1,14 @@
 <template>
-    <h1>La mia prima app con Vue CLI!</h1>
+  <div class="title">
+    <h1>{{ msg_title }}</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Title',
+  name: 'MyTitle',
   props: {
-    msg: String
+    msg_title: String
   }
 }
 </script>
@@ -15,5 +17,6 @@ export default {
 <style scoped lang="scss">
 h1 {
   color: cornflowerblue;
+  margin: 40px 0 0;
 }
 </style>
