@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <MyTitle msg_title="La mia prima app con Vue CLI!"/>
-    <MyHero titleHero="JUMBOTRON"/>
+    <MyHero titleHero="JOKER"/>
 
   </div>
 </template>
